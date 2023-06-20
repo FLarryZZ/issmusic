@@ -1,0 +1,53 @@
+.muvq-container {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+
+.deletequote{
+    margin-bottom: 10px;
+}
+
+
+
+.crveni-tekst-veliki-muvq{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 41px;
+/* identical to box height */
+
+letter-spacing: 0.25px;
+
+/* Orange */
+
+color: #DE8667;
+}
+
+.naslov-forme-muvq{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap:10px;
+}
+
+.podnaslov-muvq{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: -35px;
+    /* identical to box height */
+    
+    
+    /* Dark */
+    
+    color: #322D38;
+}
+
+

@@ -1,0 +1,129 @@
+.flex-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 104px;
+   
+   
+}
+.flex-child{
+    display: grid;
+    
+}
+.flex-child p {
+    font-size: 24px;
+        width: 530px !important;
+}
+.flex-child {
+    flex: 1;
+  
+}  
+.flex-child:first-child {
+ 
+    padding-left: 110px;
+ } 
+ .flex-child:last-child {
+  
+     padding-left: 150px;
+  }
+ 
+
+.welcome_image{
+    width: 556px;
+    height: 180px;
+  
+}
+
+.group_image{
+    width: 420px;
+height: 350px;
+}
+
+.text_under_welcome{
+    
+
+
+/* H5 desktop */
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+}
+
+.welcome_to_the{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    
+    
+  
+}
+
+.welcome_crni_tekst{
+  width: 600px;
+/* H2 desktop */
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 300;
+font-size: 61px;
+line-height: 72px;
+text-align: center;
+letter-spacing: -0.5px;
+
+color: #000000;
+}
+
+.welcome_crveni_tekst{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 300;
+font-size: 61px;
+line-height: 72px;
+text-align: center;
+letter-spacing: -0.5px;
+
+/* Orange */
+margin-top: -60px;
+color: #DE8667;
+}
+
+.welcome_crveni_tekst_random_quote{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 41px;
+    /* identical to box height */
+    
+    letter-spacing: 0.25px;
+    
+    /* Orange */
+    
+    color: #DE8667;
+    margin-bottom: 20px;
+}
+.welcome_crni_tekst_random_quote{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+margin-bottom: 20px;
+
+
+color: #000000;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}

@@ -1,0 +1,122 @@
+.signup_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    
+}
+.crni-tekst-naslov{
+    font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 41px;
+  /* identical to box height */
+  
+  text-align: center;
+  letter-spacing: 0.25px;
+  
+  /* Dark */
+  
+  color: #322D38;
+  }
+  
+  .crveni-tekst-naslov{
+    font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 41px;
+  /* identical to box height */
+  
+  text-align: center;
+  letter-spacing: 0.25px;
+  
+  /* Orange */
+  
+  color: #DE8667;
+  }
+  .naslov_signup{
+    display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap:10px;
+  }
+  .crni-tekst{
+    font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin-top: -20px;
+  /* Dark */
+  
+  color: #322D38;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  }
+
+  .avatar_container{
+    display: flex;
+  justify-content: center;
+  }
+
+  .oznake_u_liniji{
+    display: flex;
+    flex-direction: row;
+   
+    
+  }
+  .vec_postojeci_acc{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* Dark */
+
+color: #322D38;
+
+  }
+.oznaka_ime,.oznaka_sifra_signup,.oznaka_potvrdi_sifru_signup,.oznaka_email_signup{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+   
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+  .oznaka_prezime{
+    margin-left: 157px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #000000;
+
+  }
+  .linijski_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+  }

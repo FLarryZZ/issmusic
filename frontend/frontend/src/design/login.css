@@ -1,0 +1,143 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 420px;
+  
+}
+.crni-tekst-naslov{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 41px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.25px;
+
+/* Dark */
+
+color: #322D38;
+}
+
+.crveni-tekst-naslov{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 41px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.25px;
+
+/* Orange */
+
+color: #DE8667;
+}
+.naslov{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+}
+
+.crni-tekst{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+/* Dark */
+
+color: #322D38;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.oznaka_email{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;  
+line-height: 14px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.oznaka_sifra{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.zavrsni{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  
+  /* Dark */
+  
+  color: #322D38;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.gas{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* Alternative */
+
+color: #EFB467;
+text-decoration: none;
+float: right;
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+

@@ -1,0 +1,43 @@
+.edit-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.crni-tekst-veliki-ec{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 41px;
+    /* identical to box height */
+    
+    letter-spacing: 0.25px;
+    
+    /* Dark */
+    
+    color: #322D38;
+}
+
+.crveni-tekst-veliki-ec{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 41px;
+/* identical to box height */
+
+letter-spacing: 0.25px;
+
+/* Orange */
+
+color: #DE8667;
+}
+
+.naslov-forme-ec{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap:10px;
+}

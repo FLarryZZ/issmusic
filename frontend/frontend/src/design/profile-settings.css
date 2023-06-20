@@ -1,0 +1,150 @@
+.profile-settings-container {
+    display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+    width: 594px;
+ 
+}
+
+.crni-tekst-veliki-ps{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 41px;
+/* identical to box height */
+
+letter-spacing: 0.25px;
+
+/* Dark */
+
+color: #322D38;
+}
+
+.crveni-tekst-veliki-ps{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 41px;
+/* identical to box height */
+
+letter-spacing: 0.25px;
+
+/* Orange */
+
+color: #DE8667;
+}
+
+.naslov-forme-ps{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap:10px;
+}
+
+.podnaslov-ps{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    /* Dark */
+    
+    color: #322D38;
+}
+.submit-i-cancel-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap:10px;
+}
+
+.email-oznaka-ps{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 14px;
+/* identical to box height */
+margin-bottom:-2px ;
+
+color: #000000;
+
+}
+
+.oznake-linijske-ps{
+    display: flex;
+    flex-direction: row;
+   
+    
+  }
+.oznaka_ime-ps, .oznaka_prezime-ps{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 14px;
+    margin-bottom:-2px ;
+    /* identical to box height */
+}
+.oznaka_prezime-ps{
+    margin-left: 220px;
+}
+  .linijski_input-ps{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+  }
+
+  .submit-i-cancel-buttons-ps{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap:10px;
+    margin-top: 10px;
+}
+.inputps{
+    box-sizing: content-box; 
+    height:  20px;
+    font-size: 16px;
+    font-family: 'Raleway';
+    margin-top:10px;
+    
+    display: block;
+    margin-bottom:10px;
+  font-style: normal;
+    width: 536px;
+    padding: 10px 40px 14px 24px;
+    border-radius: 32px;
+    border: 2px solid #DE8667;
+    scrollbar-arrow-color:#DE8667;
+    background-color:#FFFFFF;
+
+}
+
+.input_dole{
+    box-sizing: content-box; 
+    height:  20px;
+    font-size: 16px;
+    font-family: 'Raleway';
+    margin-top:10px;
+    
+    display: block;
+    margin-bottom:10px;
+  font-style: normal;
+    width: 256.5px;
+    padding: 10px 40px 14px 24px;
+    border-radius: 32px;
+    border: 2px solid #DE8667;
+    scrollbar-arrow-color:#DE8667;
+    background-color:#FFFFFF;
+
+}
+
+

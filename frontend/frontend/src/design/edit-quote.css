@@ -1,0 +1,83 @@
+.create-quote-container {
+    display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: left;
+
+ 
+}
+
+.crni-tekst-veliki-cq{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 41px;
+/* identical to box height */
+
+letter-spacing: 0.25px;
+
+/* Dark */
+
+color: #322D38;
+}
+
+.crveni-tekst-veliki-cq{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 41px;
+/* identical to box height */
+
+letter-spacing: 0.25px;
+
+/* Orange */
+
+color: #DE8667;
+}
+
+.naslov-forme-quota{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap:10px;
+}
+
+.podnaslov-cq{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    /* Dark */
+    
+    color: #322D38;
+}
+.submit-i-cancel-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap:10px;
+}
+.input{
+    box-sizing: content-box; 
+    height:  150px;
+    font-size: 16px;
+    font-family: 'Raleway';
+    margin-top:10px;
+    
+    display: block;
+    margin-bottom:10px;
+  font-style: normal;
+    width: 420px;
+    padding: 10px 40px 14px 24px;
+    border-radius: 32px;
+    border: 2px solid #DE8667;
+    scrollbar-arrow-color:#DE8667;
+    background-color:#FFFFFF;
+
+}
